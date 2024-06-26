@@ -36,3 +36,17 @@ Data Structures:
 
 Scheduler: Manages the job queue, WebSocket clients, and broadcasting updates.
 Job: Represents a job with a name, duration, and status.
+
+### Frontend
+
+React: Chosen for its component-based architecture, making it easy to manage and update the UI.
+
+WebSocket Integration: Ensures the UI receives real-time updates from the backend, providing an interactive user experience.
+
+Job Status Indicators: Clear visual indicators (color-coded) for different job statuses (pending, running, completed).
+
+Job Submission Form: A simple form to submit new jobs to the backend
+
+## Conclusion
+
+This project demonstrates a simple yet effective job scheduler with a Go backend and React frontend, showcasing real-time updates and prioritization using the SJF algorithm. The clear separation of concerns and use of modern web technologies ensures maintainability and scalability.
